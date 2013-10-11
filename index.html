@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PuzzleScript Sprite Editor</title>
+	<!--link rel="stylesheet" href="normalize.css"-->
+	<link rel="stylesheet" href="psse_style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="psse.js"></script>
+  </script>
+</head>
+<body>
+<section id="forms">
+	<h3>PuzzleScript Sprite Editor</h3>
+
+	<div id="pickers">
+		<form action="color_form" method="get" accept-charset="utf-8" class="cf">
+			<div class="pickerCell">
+				<p id="pErase">Erase</p>
+				<input type="radio" name="cradio" value="-1"/>
+			</div>
+			<div class="pickerCell">
+				<label for="color">1</label> <input type="color" id="colorpicker0" name="c0" value="#ff0000">
+				<input type="radio" name="cradio" value="0" checked/>
+			</div>
+			<div class="pickerCell">
+				<label for="color">2</label> <input type="color" id="colorpicker1" name="c1" value="#ff0000">
+				<input type="radio" name="cradio" value="1"/>
+			</div>
+			<div class="pickerCell">
+				<label for="color">3</label> <input type="color" id="colorpicker2" name="c2" value="#ff0000">
+				<input type="radio" name="cradio" value="2"/>
+			</div>
+			<div class="pickerCellLast">
+				<label for="color">4</label> <input type="color" id="colorpicker3" name="c3" value="#ff0000">
+				<input type="radio" name="cradio" value="3"/>
+			</div>
+			<br/>
+		</form>
+	</div>
+
+	<div id="sprite">
+		<div class="pixel" id="p0"></div><div class="pixel" id="p1"></div><div class="pixel" id="p2"></div><div class="pixel" id="p3"></div><div class="pixelRowEnd" id="p4"></div>
+		<div class="pixel" id="p5"></div><div class="pixel" id="p6"></div><div class="pixel" id="p7"></div><div class="pixel" id="p8"></div><div class="pixelRowEnd" id="p9"></div>
+		<div class="pixel" id="p10"></div><div class="pixel" id="p11"></div><div class="pixel" id="p12"></div><div class="pixel" id="p13"></div><div class="pixelRowEnd" id="p14"></div>
+		<div class="pixel" id="p15"></div><div class="pixel" id="p16"></div><div class="pixel" id="p17"></div><div class="pixel" id="p18"></div><div class="pixelRowEnd" id="p19"></div>
+		<div class="pixel" id="p20"></div><div class="pixel" id="p21"></div><div class="pixel" id="p22"></div><div class="pixel" id="p23"></div><div class="pixelRowEnd" id="p24"></div>
+	</div>
+	
+	<div id="spriteText">
+	</div>
+</section>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-4435823-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+</body>
+</html>

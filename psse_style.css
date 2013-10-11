@@ -1,0 +1,51 @@
+body
+{
+	background-color: #333333;
+	color: #ffffff;
+	font-family: monospace;
+}
+
+#pickers
+{
+	padding-bottom: 10px;
+}
+
+#sprite
+{
+	padding-bottom: 10px;
+}
+
+#pErase
+{
+	margin-bottom: 9px;
+}
+
+.pickerCell
+{
+	width: 60px;
+	float: left;
+}
+
+.pickerCellLast
+{
+	width: 60px;
+	margin-left: 240px;
+}
+
+.pixel
+{
+	background-image: url("transparent.png");
+	width: 44px;
+	height: 44px;
+	float: left;
+	border: 1px solid gray;
+}
+
+.pixelRowEnd
+{
+	background-image: url("transparent.png");
+	width: 44px;
+	height: 44px;	
+	margin-left: 184px;
+	border: 1px solid gray;
+}
