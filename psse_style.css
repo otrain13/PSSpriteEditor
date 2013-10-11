@@ -5,6 +5,16 @@ body
 	font-family: monospace;
 }
 
+a
+{
+	color: #ffffdd;
+}
+
+a:hover
+{
+	color: #ffff88;
+}
+
 #pickers
 {
 	padding-bottom: 10px;
